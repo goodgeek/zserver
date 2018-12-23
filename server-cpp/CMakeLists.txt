@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+project(zservercpp)
+add_definitions(-Wall -std=c++14 -O2)
+link_libraries(sqlite3)
+add_executable(zservercpp main.cpp tcpserver.cpp database.cpp)
