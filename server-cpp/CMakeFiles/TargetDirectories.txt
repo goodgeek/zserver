@@ -1,3 +1,8 @@
 /home/zhou/myprojects/zserver/server-cpp/CMakeFiles/rebuild_cache.dir
+<<<<<<< HEAD
 /home/zhou/myprojects/zserver/server-cpp/CMakeFiles/zservercpp.dir
 /home/zhou/myprojects/zserver/server-cpp/CMakeFiles/edit_cache.dir
+=======
+/home/zhou/myprojects/zserver/server-cpp/CMakeFiles/edit_cache.dir
+/home/zhou/myprojects/zserver/server-cpp/CMakeFiles/zserver.dir
+>>>>>>> c215f7f4ffaee7b8eeaefe6afc900e19cb7b9b65
