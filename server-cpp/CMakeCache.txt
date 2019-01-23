@@ -27,6 +27,17 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
+<<<<<<< HEAD
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
+
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
+
+=======
+>>>>>>> c215f7f4ffaee7b8eeaefe6afc900e19cb7b9b65
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
 
@@ -46,6 +57,17 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //C compiler
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
+<<<<<<< HEAD
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
+
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
+
+=======
+>>>>>>> c215f7f4ffaee7b8eeaefe6afc900e19cb7b9b65
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
 
@@ -114,7 +136,11 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
+<<<<<<< HEAD
+CMAKE_PROJECT_NAME:STATIC=zservercpp
+=======
 CMAKE_PROJECT_NAME:STATIC=zserver
+>>>>>>> c215f7f4ffaee7b8eeaefe6afc900e19cb7b9b65
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -166,10 +192,17 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+<<<<<<< HEAD
+zservercpp_BINARY_DIR:STATIC=/home/zhou/myprojects/zserver/server-cpp
+
+//Value Computed by CMake
+zservercpp_SOURCE_DIR:STATIC=/home/zhou/myprojects/zserver/server-cpp
+=======
 zserver_BINARY_DIR:STATIC=/home/zhou/myprojects/zserver/server-cpp
 
 //Value Computed by CMake
 zserver_SOURCE_DIR:STATIC=/home/zhou/myprojects/zserver/server-cpp
+>>>>>>> c215f7f4ffaee7b8eeaefe6afc900e19cb7b9b65
 
 
 ########################
@@ -183,9 +216,15 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/zhou/myprojects/zserver/server-cpp
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
+<<<<<<< HEAD
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=10
+//Patch version of cmake used to create the current loaded cache
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+=======
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=5
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
+>>>>>>> c215f7f4ffaee7b8eeaefe6afc900e19cb7b9b65
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -196,6 +235,13 @@ CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
 CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
+<<<<<<< HEAD
+//ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
+CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
+CMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1
+=======
+>>>>>>> c215f7f4ffaee7b8eeaefe6afc900e19cb7b9b65
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -208,6 +254,13 @@ CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER
 CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
+<<<<<<< HEAD
+//ADVANCED property for variable: CMAKE_C_COMPILER_AR
+CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
+CMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1
+=======
+>>>>>>> c215f7f4ffaee7b8eeaefe6afc900e19cb7b9b65
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -267,10 +320,19 @@ CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
 CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
+<<<<<<< HEAD
+//Platform information initialized
+CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_RANLIB
+CMAKE_RANLIB-ADVANCED:INTERNAL=1
+//Path to CMake installation.
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.10
+=======
 //ADVANCED property for variable: CMAKE_RANLIB
 CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.5
+>>>>>>> c215f7f4ffaee7b8eeaefe6afc900e19cb7b9b65
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
